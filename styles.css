@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #28587B;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+img {
+        display: block;
+   width: 100%;
+  max-width: 600px;
+ height: auto;
+ margin: auto;
+}
+
+header {
+  flex:auto;
+  background-color: #28587B;
+  color: #eeeeff;
+}
+
+footer {
+  background-color: #28587B;
+  color: #eeeeff;
+}
+
+article {
+  background-color: #9fb4c7;
+  padding-bottom: 1rem;
+}
+
+a {
+  color: #9FB798;
+}
+
+article a {
+  color: #28587B;
+}
+
+/* id */
+#img-div {
+  padding-top: 1rem;
+    display: block;
+}
+
+/* classes */
+.intro {
+  padding: 1rem 4rem 1rem 4rem;
+}
+
+.intro p {
+  font-size: 1.30rem;
+}
+
+/* table */
+table {
+  border: 3px solid #9FB798;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+th {
+  background-color: #9FB798;
+  border: 1px solid #9FB798;
+}
+
+td {
+  border: 1px solid #bcb8b1;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+table {
+  margin: 1rem;
+  background-color: #f4f3ee;
+}
+
+td {
+  /* creating a line height to make it easier to read */
+  line-height: 1.5;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
+}
+
+/* every other dark feature
+ tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+/* My name is Erick Manrique.
+LinkedIn: https://www.linkedin.com/in/erick-manrique/
+GitHub: https://github.com/yeezick
+Twitter: https://twitter.com/erckmun */
